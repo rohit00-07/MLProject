@@ -1,0 +1,13 @@
+prefix=/Users/rohitlabade/Desktop/MLProject/venv
+exec_prefix=/Users/rohitlabade/Desktop/MLProject/venv
+libdir=/Users/rohitlabade/Desktop/MLProject/venv/lib
+sharedlibdir=/Users/rohitlabade/Desktop/MLProject/venv/lib
+includedir=/Users/rohitlabade/Desktop/MLProject/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
